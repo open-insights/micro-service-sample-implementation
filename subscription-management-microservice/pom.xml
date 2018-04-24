@@ -13,6 +13,10 @@
 	</parent>
 	<dependencies>
 		<dependency>
+			<groupId>javax.inject</groupId>
+			<artifactId>javax.inject</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
 		</dependency>
@@ -121,7 +125,7 @@
 			</plugin>
 		</plugins>
 	</build>
-				
+
 	<profiles>
 		<profile>
 			<id>docker</id>
